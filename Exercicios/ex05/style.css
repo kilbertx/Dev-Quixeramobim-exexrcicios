@@ -1,0 +1,57 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            border-top: 100px;
+        }
+
+        .container {
+            border-top: 1000px;
+            background-color: #2d3436;
+            border-top: 8px solid #636e72;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 300px;
+        }
+
+        .redes-sociais {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #636e72;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+
+        .redes-sociais img {
+            width: 25px;
+            height: 25px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 0 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        p {
+            color: #636e72;
+        }

@@ -1,0 +1,53 @@
+
+    /* Estilos gerais */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos da caixa de destaque */
+    .destaque-box {
+      background-color: #1c556b;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    /* Estilos do título */
+    .destaque-box h3 {
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    /* Estilos da imagem */
+    .destaque-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    /* Estilos do botão */
+    .destaque-box button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    /* Efeito hover no botão */
+    .destaque-box button:hover {
+      background-color: #45a049;
+    }
+  
+
